@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+ }
+
+.account{
+    width: 30%;
+    max-width: 450px; 
+    border: 2px solid rgba(86, 86, 89, 0.253);
+    background:rgba(250, 248, 248, 0.942);
+  color: rgb(148, 144, 144);
+  margin-top: -50px;
+    
+} 
+@media (max-width: 768px) {
+  .account {
+      width: 95%;
+      padding: 15px;
+  }
+
+  h1 {
+      font-size: 20px;
+  }
+
+  button {
+      font-size: 14px;
+      height: 50px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .account {
+      width: 100%;
+      padding: 10px;
+      box-shadow: none;
+      border: none;
+  }
+
+  h1 {
+      font-size: 18px;
+  }
+
+  button {
+      font-size: 14px;
+      height: 38px;
+  }
+}

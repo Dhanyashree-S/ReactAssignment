@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.home{
+    width: 50%;
+    min-height: 60vh;
+    border: 2px solid rgba(99, 98, 98, 0.701);
+    background:rgba(250, 248, 248, 0.942);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+p{
+    color: rgb(60, 59, 59);
+font-size: 20px;
+font-weight: bolder;
+}
+
+
+
+@media (max-width: 768px) {
+    .home {
+      width: 80%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .home {
+      width: 90%;
+    }
+  }
